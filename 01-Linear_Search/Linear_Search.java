@@ -21,11 +21,11 @@ public class Linear_Search {
     }
 //    Lin search in a 2d matrix
     static int[] lin2d(int[][]arr, int target){
-        for (int i = 0; i < arr.length; i++)
+        for (int i = 0; i < arr.length; i++){
             for (int j = 0; j < arr[i].length; j++) {
                 if (target == arr[i][j]) {
                     return new int[]{i,j};
-                }
+                }}
 
             }
         //this line will execute if none of the return statements above have executed.
